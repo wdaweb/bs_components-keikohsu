@@ -32,7 +32,7 @@
     }
 
     .textbackground {
-      width: 700px;
+      width: 930px;
       height: 500px;
       background: rgb(231, 231, 231);
       
@@ -56,9 +56,17 @@
 <body>
   <div class="container-fluid  p-0">
     <!-- 按鈕選單 -->
+
     <div class="row">
-      <div class="col bg-light">
-        <ul class="nav justify-content-end">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-info">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#keiko">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+      <div class="col justify-content-end collapse navbar-collapse" id="keiko">
+        <ul class="nav justify-content-end"  > 
+
           <li class="nav-item">
             <a class="nav-link active" href="#">Active</a>
           </li>
@@ -75,7 +83,7 @@
       </div>
     </div>
     <!-- 輪播 -->
-    <div class="row  ">
+    <div class="row">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -84,13 +92,13 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="https://picsum.photos/1920/1080/?random=3" class="d-block w-100 " alt="..." />
+            <img src="https://picsum.photos/1920/900/?random=3" class="d-block w-100 " alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="https://picsum.photos/1920/1080/?random=4" class="d-block w-100" alt="..." />
+            <img src="https://picsum.photos/1920/900/?random=4" class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="https://picsum.photos/1920/1080/?random=5" class="d-block w-100" alt="..." />
+            <img src="https://picsum.photos/1920/900/?random=5" class="d-block w-100" alt="..." />
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -147,14 +155,14 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid bg-light p-0 m-0  ">
+    <div class="container-fluid bg-light p-0 m-0 py-5 ">
       <!-- 上 -->
       <div class=" row  justify-content-center align-content-center m-0 p-0 ">
         <!-- <div class="d-flex"></div> -->
                 <div class="row ">
                 
                   <div class="col m-0 p-0 BgImg ">
-                    <img src="https://picsum.photos/700/500/?random=1" />
+                    <img src="https://picsum.photos/960/500/?random=1" />
                   </div>
                 </div>
 
@@ -177,10 +185,10 @@
       <!-- 下 -->
       <div class="row flex-row-reverse justify-content-center align-content-center ">
         <!-- <div class="d-flex"></div> -->
-        <div class="row ">
+        <div class="row">
 
           <div class="col m-0 p-0 BgImg  ">
-            <img src="https://picsum.photos/700/500/?random=1" />
+            <img src="https://picsum.photos/960/500/?random=1" />
           </div>
         </div>
 
